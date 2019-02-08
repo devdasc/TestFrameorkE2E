@@ -1,61 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16014" started-at="2019-02-03T07:08:01Z" finished-at="2019-02-03T07:08:17Z">
+  <suite name="Suite" duration-ms="36527" started-at="2019-02-08T07:59:19Z" finished-at="2019-02-08T07:59:55Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5cb9f472]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="16014" started-at="2019-02-03T07:08:01Z" finished-at="2019-02-03T07:08:17Z">
-      <class name="com.javacoder.HomePage">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.javacoder.HomePage@ae45eb6]" name="invokeBrowser" is-config="true" duration-ms="8314" started-at="2019-02-03T07:08:01Z" finished-at="2019-02-03T07:08:09Z">
+    <test name="Validatig user login" duration-ms="36527" started-at="2019-02-08T07:59:19Z" finished-at="2019-02-08T07:59:55Z">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@5cb9f472]" name="setUpClass" is-config="true" duration-ms="308" started-at="2019-02-08T07:59:19Z" finished-at="2019-02-08T07:59:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="validateText()[pri:1, instance:com.javacoder.HomePage@ae45eb6]" name="validateText" duration-ms="194" started-at="2019-02-03T07:08:09Z" finished-at="2019-02-03T07:08:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateText -->
-        <test-method status="PASS" signature="clickLoginLink()[pri:2, instance:com.javacoder.HomePage@ae45eb6]" name="clickLoginLink" duration-ms="3294" started-at="2019-02-03T07:08:09Z" finished-at="2019-02-03T07:08:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickLoginLink -->
-        <test-method status="PASS" signature="getLogIn(java.lang.String, java.lang.String)[pri:3, instance:com.javacoder.HomePage@ae45eb6]" name="getLogIn" duration-ms="1981" started-at="2019-02-03T07:08:13Z" data-provider="getData" finished-at="2019-02-03T07:08:15Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@5cb9f472]" name="feature" duration-ms="36001" started-at="2019-02-08T07:59:19Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-08T07:59:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abc@abc.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
+                <![CDATA[Login into Application]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLogIn -->
-        <test-method status="PASS" signature="getLogIn(java.lang.String, java.lang.String)[pri:3, instance:com.javacoder.HomePage@ae45eb6]" name="getLogIn" duration-ms="2046" started-at="2019-02-03T07:08:15Z" data-provider="getData" finished-at="2019-02-03T07:08:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd@abc.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@5cb9f472]" name="tearDownClass" is-config="true" duration-ms="94" started-at="2019-02-08T07:59:55Z" finished-at="2019-02-08T07:59:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getLogIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.javacoder.HomePage@ae45eb6]" name="tearDown" is-config="true" duration-ms="133" started-at="2019-02-03T07:08:17Z" finished-at="2019-02-03T07:08:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.javacoder.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Validatig user login -->
+  </suite> <!-- Suite -->
 </testng-results>

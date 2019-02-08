@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.javacoder.BrowserInvokation;
 
-public class LoginPagePOF {
+public class LoginPagePOF<WebElements> {
 
 	WebDriver driver;
 
@@ -25,8 +27,7 @@ public class LoginPagePOF {
 
 	@FindBy(xpath="//input[@value='Log In']")
 	WebElement logInButton;
-	
-	
+		
 	public WebElement emailTxtBox() {
 		return emailTxtBox;
 	}
@@ -37,5 +38,6 @@ public class LoginPagePOF {
 	public WebElement logInButton() {
 		return logInButton;
 	}
+	
 
 }

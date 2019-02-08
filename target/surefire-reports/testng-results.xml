@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25784" started-at="2019-02-07T06:18:43Z" finished-at="2019-02-07T06:19:09Z">
+  <suite name="Suite" duration-ms="27641" started-at="2019-02-08T08:02:41Z" finished-at="2019-02-08T08:03:09Z">
     <groups>
     </groups>
-    <test name="LoginPage" duration-ms="18266" started-at="2019-02-07T06:18:43Z" finished-at="2019-02-07T06:19:01Z">
+    <test name="LoginPage" duration-ms="18484" started-at="2019-02-08T08:02:41Z" finished-at="2019-02-08T08:03:00Z">
       <class name="com.javacoder.LoginPage">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.javacoder.LoginPage@7fc229ab]" name="invokeBrowser" is-config="true" duration-ms="8051" started-at="2019-02-07T06:18:43Z" finished-at="2019-02-07T06:18:51Z">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.javacoder.LoginPage@39529185]" name="invokeBrowser" is-config="true" duration-ms="9134" started-at="2019-02-08T08:02:41Z" finished-at="2019-02-08T08:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="clickLoginLink()[pri:1, instance:com.javacoder.LoginPage@7fc229ab]" name="clickLoginLink" duration-ms="3355" started-at="2019-02-07T06:18:51Z" finished-at="2019-02-07T06:18:54Z">
+        <test-method status="PASS" signature="clickLoginLink()[pri:1, instance:com.javacoder.LoginPage@39529185]" name="clickLoginLink" duration-ms="4508" started-at="2019-02-08T08:02:51Z" finished-at="2019-02-08T08:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLoginLink -->
-        <test-method status="PASS" signature="getLogIn(java.lang.String, java.lang.String)[pri:2, instance:com.javacoder.LoginPage@7fc229ab]" name="getLogIn" duration-ms="2177" started-at="2019-02-07T06:18:54Z" data-provider="getData" finished-at="2019-02-07T06:18:57Z">
+        <test-method status="PASS" signature="getLogIn(java.lang.String, java.lang.String)[pri:2, instance:com.javacoder.LoginPage@39529185]" name="getLogIn" duration-ms="2604" started-at="2019-02-08T08:02:55Z" data-provider="getData" finished-at="2019-02-08T08:02:58Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLogIn -->
-        <test-method status="PASS" signature="getLogIn(java.lang.String, java.lang.String)[pri:2, instance:com.javacoder.LoginPage@7fc229ab]" name="getLogIn" duration-ms="2525" started-at="2019-02-07T06:18:57Z" data-provider="getData" finished-at="2019-02-07T06:18:59Z">
+        <test-method status="PASS" signature="getLogIn(java.lang.String, java.lang.String)[pri:2, instance:com.javacoder.LoginPage@39529185]" name="getLogIn" duration-ms="2099" started-at="2019-02-08T08:02:58Z" data-provider="getData" finished-at="2019-02-08T08:03:00Z">
           <params>
             <param index="0">
               <value>
@@ -47,27 +47,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLogIn -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.javacoder.LoginPage@7fc229ab]" name="tearDown" is-config="true" duration-ms="2120" started-at="2019-02-07T06:18:59Z" finished-at="2019-02-07T06:19:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.javacoder.LoginPage@39529185]" name="tearDown" is-config="true" duration-ms="94" started-at="2019-02-08T08:03:00Z" finished-at="2019-02-08T08:03:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.javacoder.LoginPage -->
     </test> <!-- LoginPage -->
-    <test name="HomePage" duration-ms="7502" started-at="2019-02-07T06:19:01Z" finished-at="2019-02-07T06:19:09Z">
+    <test name="HomePage" duration-ms="9131" started-at="2019-02-08T08:03:00Z" finished-at="2019-02-08T08:03:09Z">
       <class name="com.javacoder.HomePage">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.javacoder.HomePage@2a32de6c]" name="invokeBrowser" is-config="true" duration-ms="7209" started-at="2019-02-07T06:19:01Z" finished-at="2019-02-07T06:19:09Z">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.javacoder.HomePage@393671df]" name="invokeBrowser" is-config="true" duration-ms="6923" started-at="2019-02-08T08:03:00Z" finished-at="2019-02-08T08:03:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="validateText()[pri:1, instance:com.javacoder.HomePage@2a32de6c]" name="validateText" duration-ms="115" started-at="2019-02-07T06:19:09Z" finished-at="2019-02-07T06:19:09Z">
+        <test-method status="PASS" signature="validateText()[pri:1, instance:com.javacoder.HomePage@393671df]" name="validateText" duration-ms="90" started-at="2019-02-08T08:03:07Z" finished-at="2019-02-08T08:03:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.javacoder.HomePage@2a32de6c]" name="tearDown" is-config="true" duration-ms="177" started-at="2019-02-07T06:19:09Z" finished-at="2019-02-07T06:19:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.javacoder.HomePage@393671df]" name="tearDown" is-config="true" duration-ms="2116" started-at="2019-02-08T08:03:07Z" finished-at="2019-02-08T08:03:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.javacoder.HomePage -->
     </test> <!-- HomePage -->
   </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="33782" started-at="2019-02-08T08:03:09Z" finished-at="2019-02-08T08:03:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@15ff3e9e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Validatig user login" duration-ms="33782" started-at="2019-02-08T08:03:09Z" finished-at="2019-02-08T08:03:43Z">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@15ff3e9e]" name="setUpClass" is-config="true" duration-ms="297" started-at="2019-02-08T08:03:09Z" finished-at="2019-02-08T08:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@15ff3e9e]" name="feature" duration-ms="33400" started-at="2019-02-08T08:03:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-08T08:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login into Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@15ff3e9e]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2019-02-08T08:03:43Z" finished-at="2019-02-08T08:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Validatig user login -->
+  </suite> <!-- Suite (0) -->
 </testng-results>

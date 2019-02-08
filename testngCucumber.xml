@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- need to register the listener class to take sreenshot -->
+	<listeners>
+		<listener class-name="com.javacoder.Listeners" />
+		<listener class-name="com.javacoder.ExtentReporterNG" />
+		
+	</listeners>
+	<!-- tests executes from top -to bottom order -->
+	<test thread-count="5" name="Validatig user login">
+		<classes>
+			<class name="cucumberOptions.TestRunner" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
