@@ -5,7 +5,11 @@
     <classes>
       <class name="com.javacoder.HomePage">
         <methods>
+          <include name="getLogIn" invocation-numbers="0 1"/>
           <include name="validateText"/>
+          <include name="basePageNavigation"/>
+          <include name="clickLoginLink"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.javacoder.HomePage -->
     </classes>
